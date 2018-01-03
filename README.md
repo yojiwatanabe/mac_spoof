@@ -14,16 +14,16 @@ _mac\_spoof_ is a small shell script that lets users spoof their MAC address on 
 	sudo chmod u+x mac_spoof
 	```
 
-3. (Optional) Make an alias to the script by adding the following line to .bash_profile to make script executable with only the command `mac\_spoof` given to the Terminal:
-		```
-		alias mac_spoof=". mac_spoof"
-		```
+3. (Optional) Make an alias to the script by adding the following line to `.bash_profile` to make script executable with only the command `mac\_spoof` given to the Terminal:
+	```
+	alias mac_spoof=". mac_spoof"
+	```
 
 #### Usage:
 
 To change your MAC address, simply run ```mac_spoof``` or ```. mac_spoof``` (depending on your installation). Take note of the initial MAC address if you wish to revert back to your original MAC address without restarting your computer.
 
-To revert back to your initial MAC address, run ```mac_spoof <MAC address>``` substituting MAC address with the address noted earlier. In the case where the original address cannot be retrieved, restart your computer.
+To revert back to your initial MAC address (or use a custom MAC address), run ```mac_spoof <MAC address>``` substituting MAC address with the address noted earlier. In the case where the original address cannot be retrieved, restart your computer.
 
 
 #### Disclaimer:
