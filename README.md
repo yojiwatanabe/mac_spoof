@@ -14,7 +14,7 @@ _mac\_spoof_ is a small shell script that lets users spoof their MAC address on 
 	sudo chmod u+x mac_spoof
 	```
 
-3. (Optional) Make an alias to the script by adding the following line to `.bash_profile` to make script executable with only the command `mac\_spoof` given to the Terminal:
+3. (Optional) Make an alias to the script by adding the following line to `.bash_profile` to make script executable with only the command `mac_spoof` given to the Terminal:
 	```
 	alias mac_spoof=". mac_spoof"
 	```
