@@ -1,0 +1,12 @@
+#!/bin/bash
+
+TEMP="$(openssl rand -hex 1)"
+NUM="00:$TEMP"
+
+for i in $(seq 0 1 3) 
+do
+    TEMP="$(openssl rand -hex 1)"
+    NUM="$NUM:$TEMP"
+done
+
+sudo ifconfig en0 ether $NUM
